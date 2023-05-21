@@ -1,0 +1,30 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "learn authentication",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vikas-Pathak-123/PlaceComAuth.git"
+  },
+  "author": "Vikas Pathak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vikas-Pathak-123/PlaceComAuth/issues"
+  },
+  "homepage": "https://github.com/Vikas-Pathak-123/PlaceComAuth#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "connect-mongodb-session": "^3.1.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "jwt-token": "^1.0.9",
+    "mongoose": "^7.2.0"
+  }
+}
